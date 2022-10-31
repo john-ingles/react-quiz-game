@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fb;
+  color: #293264;
+}
+
+main {
+  margin: 20px 75px 20px 75px;
+}
+
+#root {
+  min-width: 0px;
+}
+
+hr {
+  margin: 0px 0px 15px 0px;
+  border: 0.794239px solid #dbdef0;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+}
+
+.question-title {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  flex-shrink: 1;
+
+  padding-bottom: 15px;
+}
+
+.answers-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+  padding-bottom: 13px;
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 0.794239px solid #4d5b9e;
+  border-radius: 7.94239px;
+  cursor: pointer;
+}
+
+.answerResult {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 0.794239px solid #4d5b9e;
+  border-radius: 7.94239px;
+  opacity: 0.5;
+}
+
+.correct {
+  background: #94d7a2;
+  border: 0.794239px solid #94d7a2;
+  opacity: 1;
+}
+
+.incorrect {
+  background: #f8bcbc;
+  border: 0.794239px solid #f8bcbc;
+}
+
+.answer-text {
+  display: inline-block;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 6px 13px 6px 13px;
+  text-align: center;
+}
+
+.selected {
+  background: #d6dbf5;
+  border: 0.794239px solid #d6dbf5;
+}
+
+.check-and-restart-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.score-text {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #293264;
+  text-align: center;
+}
+
+.check-and-restart-button {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #4d5b9e;
+  border-radius: 10px;
+  color: #f5f7fb;
+  padding: 7px 20px 7px 20px;
+  cursor: pointer;
+}
+
+.not-started {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-button {
+  display: flex;
+  background: #4d5b9e;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.start-button-text {
+  width: 136.11px;
+  height: 20.58px;
+  padding: 16px 28px 16px 28px;
+  text-align: center;
+  color: #f5f7fb;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 19px;
+}
+
+.game-title {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 37px;
+  text-align: center;
+  color: #293264;
+  padding-bottom: 20px;
+}
+
+.game-desc {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+  color: #293264;
+  padding-bottom: 30px;
+}
